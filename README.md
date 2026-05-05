@@ -153,12 +153,3 @@ with torch.no_grad():
 response = tokenizer.decode(outputs[0][inputs["input_ids"].shape[1]:], skip_special_tokens=True)
 print(response)
 ```
-
----
-
-## Author
-
-**Ravindu Sankalpa** — AI/Data Science Engineer, Sri Lanka
-
-- GitHub: [K-B-R-S-W](https://github.com/K-B-R-S-W)
-- LinkedIn: [ravindusankalpa](https://linkedin.com/in/ravindusankalpa)
